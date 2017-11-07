@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Archivo Black Regular'), local('ArchivoBlack-Regular'), url(https://fonts.gstatic.com/s/archivoblack/v7/WoAoVT7K3k7hHfxKbvB6B6GwZwAVuVwqynDPq0VH9Ho.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+html { font-size: 18px; max-width: 100%; overflow-x: hidden;
+
+}
+.header { display: inline-flex; flex-direction: row; background-color: #FFF;
+  width: 99.15%; height: 64px; position: fixed; background-repeat: no-repeat;overflow-x: hidden;
+border-bottom: 4px solid #70d2ad; z-index: 5; top: 0%; overflow: hidden;
+
+}
+.header img { position: relative; left: 24px; height: 3.5rem;
+   width: 3rem; top: 2px;
+
+}
+.header p { position: relative; left: 30px; font-size: 1.5rem;
+  bottom: 10px;color: #a0a0a0; font-family: sans-serif; font-weight: 500;
+
+}
+.header strong {
+  color: #353636;
+}
+.header li:hover {background-color: #353636; border: 2px solid #70d2ad;
+
+}
+.header li { display: inline; list-style: none;
+position: relative; left: 58rem; margin-left: 15px; box-shadow: 0.5px 0.5px ;
+top:2px;
+font-weight: 500;
+font-family: sans-serif;
+background-color: #70d2ad;
+padding: 11.5px; border-radius: 10px; color: white;
+border: 1px solid white;
+}
+.first { display: inline-flex; width: 100%; background-color: #c7c7c7; height: 800px;
+
+}
+.first img { width: 50%; height: 80%;
+  position: relative; left: 4rem; top:  110px; border: 2px solid #353636;
+
+}
+.first h1 { position: relative; top: 185px; left: 13%; font-family: sans-serif; color: #353636; font-size: 3rem; display: inline-flex; min-width: 30%;
+display: block;
+}
+.first h2 { position: relative; top: 370px; font-family: sans-serif; color: #353636;
+ right: 17%;min-width: 30%;
+}
+.first p:hover { background-color: #70d2ad; border: 2px solid white;
+
+}
+.first p { position: absolute; color: white; font-family: sans-serif; top: 55%; left: 63%; font-size: 1.25rem; height: 25px;width:20.5%; text-align: center; border-radius: 10px;
+  background-color: #353636; padding: 20px; font-weight: 500; border: 2px solid #353636;
+
+}
+.second { background-color: white; position: relative; width: 100%;
+  height: 1115px; display: inline-flex; flex-direction: row; border-top:  2px solid #353636; border-bottom:  2px solid #353636;
+
+}
+.secondfhalf { background-color: white; position: relative; width: 60%;
+  height: 1115px; border-right: 4px solid #70d2ad;
+
+}
+.secondfhalf img { width: 84%; position: relative; left: 4rem; top: 3rem;
+border: 2px solid #353636;
+}
+.secondfhalf h2 { font-family: sans-serif; position: relative;left: 4rem;
+top: 2.5rem; font-size: 3.5rem; color: #353636;
+}
+.secondfhalf h3 { font-family: sans-serif; position: relative;left: 4rem;
+top: 2.5rem; font-size: 1.3rem; font-weight: lighter; color: #353636;
+}
+.secondfhalf p { font-family: sans-serif; position: relative; left: 4rem;
+  top: 6rem; color: #353636; font-size: 1.2rem;
+
+}
+.secondshalf h2 {color: #353636; font-size: 2rem; font-family: sans-serif;}
+.secondshalf p {color: #353636; font-size: 1.2rem;font-family: sans-serif;}
+.secondshalf a {color: #70d2ad; font-size: 1rem;font-family: sans-serif;}
+.secondshalf { background-color: white; position: relative; width: 40%; display: inline-flex; flex-direction: column;
+  height: 1115px;
+
+}
+.orientation { border-bottom: 4px solid #c7c7c7; height: 20.5rem;
+  border-top:
+
+}
+.orientation:hover {
+  background-color: #c7c7c7;
+}
+.orientation a:hover { color: white;
+
+}
+.orientation h2,  a { position: relative; left: 20rem; font-family: sans-serif; text-decoration: none; bottom: 9.5rem;
+
+}
+
+.orientation img { border-radius: 150px; width: 35%; height: auto; position: relative; left: 2rem; top: 3rem; border: 2px solid #353636;
+
+}
+.orientation p { bottom: 10.2rem; color: #353636; font-size: 1.2rem; position: relative; left: 20rem;
+
+}
+.orientation h2 { font-size: 2rem; color: #353636; font-weight: 600; right: 10rem;
+
+}
+.orientation a { font-size: 1rem; color: #70d2ad;
+
+}
+.campus:hover{ background-color: #c7c7c7;
+
+}
+.campus a:hover{color: white;}
+.campus { border-bottom: 4px solid #c7c7c7; height: 20.5rem;
+
+}
+.campus img { border-radius: 150px; width: 35%; height: auto; position: relative; left: 2rem; top: 3rem; border: 2px solid #353636;
+
+}
+.campus h2 { position: relative; left: 20rem; bottom: 10rem;
+
+}
+.campus p { position: relative; bottom: 10.8rem; left: 20rem;
+
+}
+.guest a:hover{ color: white;
+
+}
+.guest:hover{ background-color: #c7c7c7;
+
+}
+.guest { height: 20.5rem;
+
+}
+.guest img { border-radius: 150px ; width: 35%; height: auto; position: relative; left: 2rem; top: 3rem; border: 2px solid #353636;
+
+}
+.guest h2 {position: relative; left: 20rem; bottom: 10rem;
+
+}
+.guest p {
+  position: relative; bottom: 10.8rem; left: 20rem; text-align: left;
+}
+.third {width: 100%; height: 1350px; background-color: #c7c7c7; position: relative; top: 0%;
+
+}
+.third h1 { font-size: 3.5rem; color: #353636; font-weight: 600; position: absolute; top: 3rem; left: 38.5%;
+  font-family: sans-serif;
+
+}
+.boxspace {background-color: #c7c7c7; width: 80%; height: 1025px; position: relative; left: 10.5rem; top: 15rem;
+display: inline-flex; flex-wrap: wrap;  justify-content: space-between;
+}
+.boxspace h2 { color: #353636; font-size: 2rem; font-family: sans-serif; font-weight: 600; text-align: left; left: 1.5rem; position: relative;
+
+}
+.boxspace h3, p{ color: #c7c7c7; font-family: sans-serif; font-weight: lighter; text-align: left; position: relative; left: 1.5rem;
+
+}
+.soft { background-color: white; width: 30%; height: 27rem; border: 2px solid #70d2ad;
+
+}
+.soft img { height: 48.75%; width: 100%;
+
+}
+.art { background-color: white; width: 30%; height: 27rem; border: 2px solid #70d2ad;
+
+}
+.art img { height: 48.75%; width: 100%;
+
+}
+.des { background-color: white; width: 30%; height: 27rem; border: 2px solid #70d2ad;
+
+}
+.des img { height: 48.75%; width: 100%;
+
+}
+.data { background-color: white; width: 30%; height: 27rem; border: 2px solid #70d2ad; position: relative;
+
+}
+.data img { height: 48.75%; width: 100%;
+
+}
+.busi { background-color: white; width: 30%; height: 27rem; border: 2px solid #70d2ad; position: relative;
+
+}
+.busi img { height: 48.75%; width: 100%;
+
+}
+.mark { overflow: hidden; background-color: white; width: 30%; height: 27rem; border: 2px solid #70d2ad; position: relative;
+
+}
+.mark img { height: 48.75%; width: 100%;
+
+}
+.forth h1 {
+  font-size: 3.5rem; color: #353636; font-weight: 600; position: absolute; top: 1.5rem; left: 38.5%;
+   font-family: sans-serif;
+}
+.forth { display: inline-flex;  width: 100%; margin-bottom: 15px;
+  height: 750px; background-color: white; position: relative;
+
+}
+.forthfhalf {width: 60%; height: 300px; background-color: white; position: relative; top: 92.5%; right: 41.5%;
+}
+
+.forthfhalfv {width: 120%; height: 500px; position: relative; background-color: white; position: relative; top: 12.5rem;
+  left: 4rem;
+}
+video { width: 100%;  position: absolute; height: auto; border: 2px solid #353636;
+
+}
+.forthshalf { width: 110%; height: 750px; background-color: white; position: relative; top: 12.5rem; right: 5rem;
+
+}
+.forthfhalf h3 { color: #353636; position: relative; font-family: sans-serif; font-size: 2rem; left: 4rem;
+
+
+
+}
+.forth p { color: #c7c7c7; position: relative;
+left: 4rem;
+
+}
+.fisma img {border: 2px solid #353636; border-radius: 150px;
+
+}
+.fisma {
+  background-color: white; height: 15rem;
+}
+.fisma h3 { position: relative; left:20rem; font-family: sans-serif; color: #353636;
+  font-size: 2rem; bottom: 14rem;
+
+}
+.fisma p {position: relative; left: 20rem; bottom: 15rem;
+
+}
+.now img {border: 2px solid #353636; border-radius: 150px;
+
+}
+.now { position: relative; top: 5rem;
+  background-color: white; height: 15rem;
+}
+.now h3 { position: relative; left:20rem; font-family: sans-serif; color: #353636;
+  font-size: 2rem; bottom: 14rem;
+
+}
+.now p {position: relative; left: 20rem; bottom: 15rem;
+
+}
+.footer { width: 100%;
+  height: 60px;
+  background-color: white; position: relative; top: 12.5rem;
+border-top: 4px solid #20d2ad;
+}
+.footer li {
+  display: inline; list-style: none; position: relative; left: 70%;
+  top: 7.5rem;
+}
+.footer a { color: #20d2ad;position: relative; text-align: right; margin-left: 10px;
+
+}
